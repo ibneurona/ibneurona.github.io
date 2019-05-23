@@ -1,5 +1,5 @@
 .main-div {
-  font-family: "Roboto";
+  font-family: "Roboto","Arial";
 }
 
 .profile-wrapper {
@@ -42,7 +42,7 @@
     display: inline;
     margin-left: 0.5rem !important;
   }
-  
+
 }
 .profile-wrapper .contact-container .contact-wrapper {
   background: #c7d8da;
