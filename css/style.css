@@ -3,11 +3,12 @@
 }
 
 .profile-wrapper {
-  height: 25vh;
+  height: 31vh;
 }
 .profile-wrapper .perfil {
   background: #7a9ea3;
-  height: 25vh;
+  height: 31vh;
+  padding-top: 5px;
 }
 .profile-wrapper .perfil h1 {
   font-size: 18px;
@@ -23,30 +24,40 @@
   border-style: none;
   display: block;
 }
+
 @media only screen and (max-width:770px){
+  .profile-wrapper .perfil{
+    height: 200px;
+  }
   .profile-wrapper .perfil img {
     max-width: 25%;
     border-radius: 50%;
     border-style: none;
     display: block;
   }
-  .contact-social{
+  .contact-wrapper{
+    height: 200px !important;
+  }
+ 
+  .contact-social ul{
+    /* margin: 0; */
+    /* margin-bottom: 5px;  */
     padding: 0;
+    margin-left: 35px;
+
   }
-  .profile-wrapper .contact-container .contact-wrapper .contact-social ul {
-    padding-left: 10px;
-    padding-top: 10px;
+  .contact-social ul li{
+    margin-left: 5px !important;
   }
-  .profile-wrapper .contact-container .contact-wrapper .contact-social ul li {
-    list-style-type: none;
-    display: inline;
-    margin-left: 0.5rem !important;
+  .main-container{
+    margin-top: 15px;
   }
 
 }
+
 .profile-wrapper .contact-container .contact-wrapper {
   background: #c7d8da;
-  height: 25vh;
+  height: 31vh;
 }
 .profile-wrapper .contact-container .contact-wrapper li {
   list-style: none;
@@ -61,14 +72,14 @@
 .profile-wrapper .contact-container .contact-wrapper .contact-main a i {
   color: #212529;
 }
-.profile-wrapper .contact-container .contact-wrapper .contact-social ul {
+/* .profile-wrapper .contact-container .contact-wrapper .contact-social ul {
   padding-left: 15px;
   padding-top: 15px;
-}
+} */
 .profile-wrapper .contact-container .contact-wrapper .contact-social ul li {
   list-style-type: none;
   display: inline;
-  margin-left: 3.5rem !important;
+  margin-left: 3.5rem;
 }
 .profile-wrapper .contact-container .contact-wrapper .contact-social ul li a {
   color: #212529;
@@ -78,6 +89,9 @@
   font-size: 22px;
 }
 
+.main-container .section-one{
+  margin-top: 15px;
+}
 .main-container hr {
   background: #212529;
   height: 1px;
@@ -101,4 +115,7 @@
   font-weight: bold;
 }
 
+.main-container .resume-wrapper{
+  margin-top:10px;
+}
 /*# sourceMappingURL=style.css.map */
