@@ -10,7 +10,10 @@ body{
   /* rgb(231, 231, 231); */
   /* height: 100vh; */
 }
-
+a{
+  color: #fff;
+  text-decoration: none;
+}
 .hero .titles{
   color:#fff;
   width: max-content;
