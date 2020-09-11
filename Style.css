@@ -58,8 +58,6 @@ img{
 @media (max-width: 1024px){
   #tituloNE{
     display: table-caption;
-    /* flex-wrap: wrap; */
-    /* flex-direction: column; */
   }
 }
 
