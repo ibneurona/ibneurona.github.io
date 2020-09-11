@@ -31,9 +31,9 @@ a:link{
 }
 
 img{
-  margin-top: 5%;
-  width: 90%;
-  height: 90%;
+  margin-top: 10%;
+  width: 80%;
+  height: 80%;
   border-radius: 100%;
   filter: saturate(110%) brightness(90%) contrast(122%);
 }
@@ -55,6 +55,14 @@ img{
   font-size: 1.8rem;
 }
 
+@media (max-width: 1024px){
+  #tituloNE{
+    display: table-caption;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+  }
+}
+
 @media (max-width: 800px){
   .social-media ul{
     display: block;
@@ -67,7 +75,7 @@ img{
 
 .four{
   background-color: rgb(231,231,231);
-  height: 165rem;
+  height: auto;
 }
 
 .skills li{
