@@ -55,13 +55,13 @@ img{
   font-size: 1.8rem;
 }
 
-@media (max-width: 1024px){
+@media only screen and (max-width: 1024px){
   #tituloNE{
     display: table-caption;
   }
 }
 
-@media (max-width: 800px){
+@media only screen and (max-width: 800px){
   .social-media ul{
     display: block;
   }
@@ -73,7 +73,7 @@ img{
 
 .four{
   background-color: rgb(231,231,231);
-  height: auto;
+  height: 350vh;
 }
 
 .skills li{
@@ -191,8 +191,12 @@ hr{
   font-weight: 600;
 }
 
+.edu-s{
+  margin-top: 2rem;
+}
 
 .courses-s{
   /* margin-left: 5rem; */
-  margin-right: 2rem;  
+  margin-right: 2rem;
+  margin-top: 2rem;  
 }
