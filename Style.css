@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  
 }
 
 .hero{
@@ -10,19 +11,15 @@ body{
   /* rgb(231, 231, 231); */
   /* height: 100vh; */
 }
-a{
-  color: #fff;
-  text-decoration: none;
-}
-
-a:link{
-  color: #fff;
-  text-decoration: none;
-}
 
 .hero .titles{
   color:#fff;
   width: max-content;
+}
+
+.titles a{
+  color: #fff;
+  text-decoration: none;
 }
 
 .titles h2{
@@ -31,9 +28,9 @@ a:link{
 }
 
 img{
-  margin-top: 10%;
-  width: 80%;
-  height: 80%;
+  margin-top: 5%;
+  width: 90%;
+  height: 90%;
   border-radius: 100%;
   filter: saturate(110%) brightness(90%) contrast(122%);
 }
@@ -55,13 +52,9 @@ img{
   font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 1024px){
-  #tituloNE{
-    display: table-caption;
-  }
-}
 
-@media only screen and (max-width: 800px){
+
+@media (max-width: 800px){
   .social-media ul{
     display: block;
   }
@@ -73,7 +66,7 @@ img{
 
 .four{
   background-color: rgb(231,231,231);
-  height: 350vh;
+  height: 300rem;
 }
 
 .skills li{
@@ -191,12 +184,18 @@ hr{
   font-weight: 600;
 }
 
-.edu-s{
-  margin-top: 2rem;
-}
 
 .courses-s{
   /* margin-left: 5rem; */
-  margin-right: 2rem;
-  margin-top: 2rem;  
+  margin-right: 2rem;  
+}
+
+.courses-wrap{
+  font-size: 1.35rem;
+}
+
+#subEspe{
+  /* margin-left: 20px; */
+  font-style: italic;
+  font-weight: 350;
 }
